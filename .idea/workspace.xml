@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e53b92dc-851f-4005-83c2-aaf81eecb056" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/asset-manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/precache-manifest.35874d9c819fc236ad0968b9346349d6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/service-worker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/static/css/main.498d002a.chunk.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/static/css/main.498d002a.chunk.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/static/js/2.f332bf17.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/static/js/2.f332bf17.chunk.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/static/js/main.44d73e04.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/static/js/main.44d73e04.chunk.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/static/js/runtime~main.a8a9905a.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/static/js/runtime~main.a8a9905a.js.map" afterDir="false" />
+    <list default="true" id="e53b92dc-851f-4005-83c2-aaf81eecb056" name="Default Changelist" comment="Initializing docs folder for GithubPages">
       <change afterPath="$PROJECT_DIR$/node_modules/react-jss/lib/JssProvider.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/react-jss/lib/JssProvider.test.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/react-jss/lib/compose.js" afterDir="false" />
@@ -94,6 +81,7 @@
       <change afterPath="$PROJECT_DIR$/node_modules/react-router/umd/react-router.min.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/react-router/warnAboutDeprecatedCJSRequire.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/react-router/withRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -130,12 +118,13 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\rclau\Documents\code_mine\react-js-data-charts\src\components" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\rclau\Documents\code_mine\react-js-data-charts\src" />
       <recent name="C:\Users\rclau\Documents\code_mine\react-js-data-charts\public" />
+      <recent name="C:\Users\rclau\Documents\code_mine\react-js-data-charts\src\components" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rclau\Documents\code_mine\react-js-data-charts\docs" />
       <recent name="C:\Users\rclau\Documents\code_mine\react-js-data-charts\src\components" />
     </key>
   </component>
@@ -164,7 +153,7 @@
       <workItem from="1564582441228" duration="8179000" />
       <workItem from="1564603278104" duration="972000" />
       <workItem from="1564668549613" duration="16491000" />
-      <workItem from="1564753229491" duration="22779000" />
+      <workItem from="1564753229491" duration="23221000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1564699468778</created>
@@ -180,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564784311695</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Initializing docs folder for GithubPages">
+      <created>1564785149631</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1564785149631</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +199,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Test" />
     <MESSAGE value="Add Dashboard page&#10;Add example charts to other chart pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Dashboard page&#10;Add example charts to other chart pages" />
+    <MESSAGE value="Initializing docs folder for GithubPages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initializing docs folder for GithubPages" />
   </component>
 </project>
