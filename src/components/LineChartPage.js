@@ -27,6 +27,9 @@ export class LineChartPage extends Component {
                 ]
             },
             optionsFirstChart: {
+                legend: {
+                    position: 'right'
+                },
                 responsive: true,
                 scales: {
                     yAxes: [{

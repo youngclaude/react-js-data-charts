@@ -21,15 +21,18 @@ export class LeftNavBar extends Component {
                 <a href="/horizontal-bar" className="collection-item">
                     <i className="material-icons">bar_chart</i>
                     <span>Horizontal Bar</span>
-                </a><a href="/pie" className="collection-item">
+                </a>
+                <a href="/pie" className="collection-item">
                     <i className="material-icons">bar_chart</i>
                     <span>Pie</span>
+                </a><a href="/moch-dashboard" className="collection-item">
+                    <span>Analytics Dashboard</span>
                 </a>
             </div>
         );
     }
 }
-
+//pointRadius: 15
 const style = {
     navBarStyles: {
         color: '#000',

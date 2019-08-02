@@ -6,6 +6,7 @@ import LeftNavBar from "./components/LeftNavBar";
 import BarChartPage from "./components/BarChartPage";
 import HorizontalBarChartPage from "./components/HorizontalBarChartPage";
 import PieChartPage from "./components/PieChartPage";
+import Dashboard from "./components/Dashboard";
 
 class App extends Component {
     constructor(props){
@@ -141,6 +142,19 @@ class App extends Component {
                           <div className="ibox-content">
                             <PieChartPage />
                           </div>
+                      </div>
+                  </div>
+              )}/>
+
+              <Route exact path="/moch-dashboard" render={() =>(
+                  <div className="row">
+                      <div className="col s1">
+                          <LeftNavBar />
+                      </div>
+                      <div className="col s8 offset-s2">
+                          <h3>Dashboard Overview</h3>
+                            <Dashboard />
+
                       </div>
                   </div>
               )}/>

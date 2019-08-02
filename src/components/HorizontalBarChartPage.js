@@ -32,6 +32,76 @@ export class HorizontalBarChartPage extends Component {
                 tooltips: {
                     enabled: false
                 }
+            },
+            chart2Data: {
+                labels: ["Agent Name A",
+                    "Agent Name B",
+                    "Agent Name C",
+                    "Agent Name D",
+                    "Agent Name E",
+                    "Agent Name F",
+                    "Agent Name G"],
+                datasets: [
+                    {
+                        label: "In Progress",
+                        data: [65, 59, 80, 81, 56, 55, 40],
+                        backgroundColor: "#22495d"
+                    },
+                    {
+                        label: "Application Lodged",
+                        data: [28, 48, 40, 19, 86, 27, 90],
+                        backgroundColor: "#547b8f"
+                    },
+                    {
+                        label: "New",
+                        data: [65, 59, 80, 81, 56, 55, 40],
+                        backgroundColor: "#7fb2cc"
+                    },
+                    {
+                        label: "Letter of Offer Declined",
+                        data: [28, 48, 40, 19, 86, 27, 90],
+                        backgroundColor: "#a8559d"
+                    },
+                    {
+                        label: "Letter of Offer Confirmed",
+                        data: [65, 59, 80, 81, 56, 55, 40],
+                        backgroundColor: "#76316d"
+                    }
+                ]
+            },
+            chart2Options: {
+                scales: {
+                    xAxes: [
+                        {
+                            stacked: true,
+                            gridLines: {
+                                display: false
+                            }
+                        }
+                    ],
+                    yAxes: [
+                        {
+                            barPercentage: 0.5,
+                            stacked: true,
+                            gridLines: {
+                                display: false
+                            }
+                        }
+                    ]
+                },
+                title: {
+                    display: true,
+                    fontsize: 14,
+                    text: "Applications 2100"
+                },
+                legend: {
+                    display: true,
+                    position: "bottom"
+                },
+                tooltips: {
+                    enabled: true,
+                    mode: 'nearest'
+                }
             }
         };
     }
@@ -39,10 +109,17 @@ export class HorizontalBarChartPage extends Component {
     render(){
         return(
             <div>
+                <h3>Horizontal Bar Chart </h3>
                 <HorizontalBar
                     options={this.state.options}
                     //data={this.state.data} this was passing in a data prop
                     data={this.state.data}
+                />
+                <h3>Horizontal Bar Chart 2 </h3>
+                <HorizontalBar
+                    options={this.state.chart2Options}
+                    //data={this.state.data} this was passing in a data prop
+                    data={this.state.chart2Data}
                 />
             </div>
         );
