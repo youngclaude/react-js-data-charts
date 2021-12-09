@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import { Line, Bar, Doughnut, HorizontalBar, Pie  } from 'react-chartjs-2';
-import { BrowserRouter as Router, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import LineChartPage from "./components/LineChartPage";
 import LeftNavBar from "./components/LeftNavBar";
 import BarChartPage from "./components/BarChartPage";
@@ -58,6 +58,8 @@ class App extends Component {
   render() {
       return (
           <Router>
+              <>
+
               <Route exact path="/" render={() =>(
                   <div className="row">
                       <div className="col s3 offset-s2">
@@ -160,6 +162,7 @@ class App extends Component {
                       </div>
                   </div>
               )}/>
+              </>
 
           </Router>
       );
