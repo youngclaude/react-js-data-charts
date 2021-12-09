@@ -8,6 +8,8 @@ import HorizontalBarChartPage from "./components/HorizontalBarChartPage";
 import PieChartPage from "./components/PieChartPage";
 import Dashboard from "./components/Dashboard";
 
+// Theres a new boss in town
+
 class App extends Component {
     constructor(props){
         super(props);
